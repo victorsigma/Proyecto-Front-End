@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">MPM</a>
+                <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse"
+                    id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="projects.html">Projects</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav d-flex">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="index.html">Logout</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="account.html">Account</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <nav class="nv-projct navbar">
+            <div class="container-fluid content-project">
+                <h1 class="navbar-brand">Account</h1>
+            </div>
+        </nav>
+
+        <div class="d-flex align-items-start nav-ver-margin">
+            <div class="nav flex-column nav-pills me-3" id="v-pills-tab"
+                role="tablist" aria-orientation="vertical">
+                <button class="nav-link nav-link-margin active"
+                    id="v-pills-information-tab"
+                    data-bs-toggle="pill" data-bs-target="#v-pills-information"
+                    type="button" role="tab" aria-controls="v-pills-information"
+                    aria-selected="false">Information</button>
+                <button class="nav-link nav-link-margin"
+                    id="v-pills-update-information-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#v-pills-update-information"
+                    type="button" role="tab"
+                    aria-controls="v-pills-update-information"
+                    aria-selected="false">Update Information</button>
+            </div>
+            <div class="tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-information"
+                    role="tabpanel"
+                    aria-labelledby="v-pills-information-tab" tabindex="0">
+                    <div class="account-container row">
+                        <form>
+                            <div class="mb-1">
+                                <label class="form-label" for="nameP">Information</label>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="nameP">Username</label>
+                                <input class="form-control" id="nameP"
+                                    name="nameP"
+                                    type="text" disabled value="Victor"/>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="nameP">Email
+                                    address</label>
+                                <input class="form-control" id="nameP"
+                                    name="nameP"
+                                    type="text" disabled value="victor@gmail.com"/>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Password</label>
+                                <input type="password" class="form-control"
+                                    id="exampleInputPassword1" disabled value="Contraseña">
+                            </div>
+                            <div class="mb-3">
+                                <label class="control-label" for="date">Creation account date</label>
+                                <input class="form-control" disabled id="date"
+                                    name="date" placeholder="MM/DD/YYYY"
+                                    type="text" value="01/01/2022" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-update-information"
+                    role="tabpanel"
+                    aria-labelledby="v-pills-update-information-tab"
+                    tabindex="0">
+                    <div class="account-container row">
+                        <form>
+                            <div class="mb-1">
+                                <label class="form-label" for="nameP">Information</label>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="nameP">Username</label>
+                                <input class="form-control" id="nameP"
+                                    name="nameP"
+                                    type="text" value="Victor"/>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="nameP">Email
+                                    address</label>
+                                <input class="form-control" id="nameP"
+                                    name="nameP"
+                                    type="text" value="victor@gmail.com"/>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Password</label>
+                                <input type="password" class="form-control"
+                                    id="exampleInputPassword1" value="Contraseña">
+                            </div>
+                        </form>
+                    </div></div>
+            </div>
+        </div>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+            integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+            integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+            crossorigin="anonymous"></script>
+    </body>
+</html>

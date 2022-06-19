@@ -81,3 +81,7 @@
 .btn-del-member {
     float: right;
 }
+
+.account-container {
+    margin-left: 30px;
+}
