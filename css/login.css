@@ -1,0 +1,30 @@
+* {   
+    margin: 0px;   
+    padding: 0px;
+    
+}
+
+.login-container {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.btn-padding {
+    padding: 10px;
+    margin: 10px;
+}
+
+.card {
+    border: 0cm;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, +50%);
+}
+
+.btn-del-member {
+    
+}
